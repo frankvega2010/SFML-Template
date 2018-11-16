@@ -31,58 +31,12 @@ namespace Juego
 
 		void MenuScreen::input()
 		{
-			/*if (IsKeyPressed(KEY_ONE))
-			{
-			#ifdef AUDIO
-			PlaySound(pong_select_menu);
-			#endif
-			selectOption = PlayGame;
-			isPlayer2CPU = true;
-			isScreenFinished = true;
-			}
+			//if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
+			//{
+			//	//buttonOption
+			//	setHasScreenFinished(true);
 
-			if (IsKeyPressed(KEY_TWO))
-			{
-			#ifdef AUDIO
-			PlaySound(pong_select_menu);
-			#endif
-			selectOption = PlayGame;
-			isPlayer2CPU = false;
-			isScreenFinished = true;
-			}
-
-			if (IsKeyPressed(KEY_THREE))
-			{
-			#ifdef AUDIO
-			PlaySound(pong_select_menu);
-			#endif
-			selectOption = Settings;
-			isScreenFinished = true;
-			}
-
-			if (IsKeyPressed(KEY_FOUR))
-			{
-			#ifdef AUDIO
-			PlaySound(pong_select_menu);
-			#endif
-			selectOption = Howtoplay;
-			isScreenFinished = true;
-			}
-
-			if (IsKeyPressed(KEY_FIVE))
-			{
-			#ifdef AUDIO
-			PlaySound(pong_select_menu);
-			#endif
-			selectOption = Credits;
-			isScreenFinished = true;
-			}
-
-			if (IsKeyPressed(KEY_SIX))
-			{
-			selectOption = QuitGame;
-			isScreenFinished = true;
-			}*/
+			//}
 		}
 
 		void MenuScreen::update()
